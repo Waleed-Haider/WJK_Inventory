@@ -1,11 +1,67 @@
-﻿@model WJK_Inventory.Models.Item
+﻿@using WJK_Inventory.Controllers
+
+@model WJK_Inventory.Models.Item
+
 @{
     ViewBag.Title = "Add";
 }
 
 <h2>Add</h2>
 
-@using (Html.BeginForm())
+@using (Html.BeginForm("Add", "Home", FormMethod.Post))
 {
+    <table>
+        <tr>
+            <td>
+                @Html.LabelFor(m => m.Name)
+            </td>
+            <td>
+                @Html.EditorFor(m => m.Name)
+            </td>
+            <td>
+                @Html.ValidationMessageFor(m => m.Name)
+            </td>
+        </tr>
 
+
+        <tr>
+            <td>
+                @Html.LabelFor(m => m.Manufacturer)
+            </td>
+            <td>
+                @Html.EditorFor(m => m.Manufacturer)
+            </td>
+            <td>
+                @Html.ValidationMessageFor(m => m.Manufacturer)
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                @Html.LabelFor(m => m.Description)
+            </td>
+            <td>
+                @Html.EditorFor(m => m.Description)
+            </td>
+            <td>
+                @Html.ValidationMessageFor(m => m.Description)
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                @Html.LabelFor(m => m.Price)
+            </td>
+            <td>
+                @Html.EditorFor(m => m.Price)
+            </td>
+            <td>
+                @Html.ValidationMessageFor(m => m.Price)
+            </td>
+        </tr>
+
+        
+
+    </table>
+    <input type="submit" value="Submit" class="fa"/>
 }

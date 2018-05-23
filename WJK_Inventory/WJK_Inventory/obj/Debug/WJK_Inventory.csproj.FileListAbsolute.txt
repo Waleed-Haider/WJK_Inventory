@@ -47,3 +47,4 @@ C:\Users\Fareed\Source\Repos\WJK_Inventory\WJK_Inventory\WJK_Inventory\bin\Syste
 C:\Users\Fareed\Source\Repos\WJK_Inventory\WJK_Inventory\WJK_Inventory\bin\System.Web.Mvc.xml
 C:\Users\Fareed\Source\Repos\WJK_Inventory\WJK_Inventory\WJK_Inventory\obj\Debug\WJK_Inventory.dll
 C:\Users\Fareed\Source\Repos\WJK_Inventory\WJK_Inventory\WJK_Inventory\obj\Debug\WJK_Inventory.pdb
+C:\Users\Fareed\Source\Repos\WJK_Inventory\WJK_Inventory\WJK_Inventory\obj\Debug\WJK_Inventory.csprojResolveAssemblyReference.cache

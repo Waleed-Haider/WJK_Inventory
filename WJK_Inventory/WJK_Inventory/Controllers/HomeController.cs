@@ -9,7 +9,7 @@ namespace WJK_Inventory.Controllers
 {
     public class HomeController : Controller
     {
-        private ItemDbContext myItemDbContext = new ItemDbContext();
+        private ItemDbContext _itemDbContext = new ItemDbContext();
         // GET: Home
         public ActionResult Index()
         {
